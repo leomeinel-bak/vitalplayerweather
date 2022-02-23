@@ -1,15 +1,15 @@
-name: VitalCraft
+name: VitalPlayerWeather
 version: @version@
-main: com.tamrielnetwork.vitalcraft.VitalCraft
+main: com.tamrielnetwork.vitalplayerweather.VitalPlayerWeather
 api-version: 1.17
 authors: [ Tamriel Network ]
 website: https://tamriel.site
 description: Gives players the ability to open a crafting interface.
 commands:
-  vitalcraft:
+  vitalplayerweather:
     description: "Main command"
-    usage: "/vitalcraft"
+    usage: "/vitalplayerweather"
 permissions:
-  vitalcraft.craft:
-    description: "Permission to toggle crafting interface"
+  vitalplayerweather.set:
+    description: "Permission to change playerweather"
     default: op
