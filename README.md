@@ -86,9 +86,9 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalplayerweather.set`
 
-* Command: `/vitalplayerweather`
+* Command: `/pweather`
 * Description: Reset your playerweather
-* Command: `/vitalplayerweather <weather>`
+* Command: `/pweather <weather>`
 * Description: Change your playerweather
 
 ### Configuration - config.yml

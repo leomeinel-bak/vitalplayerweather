@@ -32,10 +32,8 @@ public final class VitalPlayerWeather extends JavaPlugin {
 	@Override
 	public void onEnable() {
 
-		Objects.requireNonNull(getCommand("vitalplayerweather")).setExecutor(new VitalPlayerWeatherCmd());
-		Objects.requireNonNull(getCommand("vitalplayerweather")).setTabCompleter(new VitalPlayerWeatherCmd());
-
-		saveDefaultConfig();
+		Objects.requireNonNull(getCommand("pweather")).setExecutor(new VitalPlayerWeatherCmd());
+		Objects.requireNonNull(getCommand("pweather")).setTabCompleter(new VitalPlayerWeatherCmd());
 
 		messages = new Messages();
 

@@ -6,9 +6,9 @@ authors: [ Tamriel Network ]
 website: https://tamriel.site
 description: Gives players the ability to open a crafting interface.
 commands:
-  vitalplayerweather:
+  pweather:
     description: "Main command"
-    usage: "/vitalplayerweather"
+    usage: "/pweather"
 permissions:
   vitalplayerweather.set:
     description: "Permission to change playerweather"
