@@ -45,7 +45,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#commands-and-permissions">Commands and Permissions</a></li>
-        <li><a href="#configuration">Configuration</a></li>
+        <li><a href="#configuration - messages.yml">Configuration</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -91,20 +91,15 @@ To get the plugin running on your server follow these simple steps.
 * Command: `/pweather <weather>`
 * Description: Change your playerweather
 
-### Configuration - config.yml
-
-```
-```
-
 ### Configuration - messages.yml
 
 ```
+cmd: "&fUsage: &b/pweather <weather>"
+reset-weather: "Your weather has been reset"
+set-weather: "&fYour weather has been changed to &b%weather%"
+no-perms: "&cYou don't have enough permissions!"
 player-only: "&cThis command can only be executed by players!"
-no-perms: "&7You don't have enough permissions!"
-cmd: "cmd"
-set-weather: "Successfully changed your weather to %weather%"
-reset-weather: "Successfully reset your weather"
-invalid-weather: "Invalid time"
+invalid-weather: "&cInvalid weather!"
 ```
 
 <!-- ROADMAP -->
