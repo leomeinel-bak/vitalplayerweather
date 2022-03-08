@@ -29,6 +29,11 @@ import java.util.List;
 
 public class CmdSpec {
 
+	private CmdSpec() {
+
+		throw new IllegalStateException("Utility class");
+	}
+
 	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
 
 		if (Cmd.isInvalidSender(sender)) {
@@ -50,17 +55,11 @@ public class CmdSpec {
 
 	public static WeatherType getWeatherType(@NotNull String arg) {
 
-		switch (arg) {
-			case "sun", "clear" -> {
-				return WeatherType.CLEAR;
-			}
-			case "storm", "rain" -> {
-				return WeatherType.DOWNFALL;
-			}
-			default -> {
-				return null;
-			}
-		}
+		return switch (arg) {
+			case "sun", "clear" -> WeatherType.CLEAR;
+			case "storm", "rain" -> WeatherType.DOWNFALL;
+			default -> null;
+		};
 	}
 
 	public static List<String> getNames() {

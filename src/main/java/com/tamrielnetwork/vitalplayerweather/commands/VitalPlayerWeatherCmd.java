@@ -18,7 +18,6 @@
 
 package com.tamrielnetwork.vitalplayerweather.commands;
 
-import com.google.common.collect.ImmutableMap;
 import com.tamrielnetwork.vitalplayerweather.utils.Chat;
 import com.tamrielnetwork.vitalplayerweather.utils.commands.Cmd;
 import com.tamrielnetwork.vitalplayerweather.utils.commands.CmdSpec;
@@ -38,7 +37,7 @@ public class VitalPlayerWeatherCmd implements TabExecutor {
 	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
 
 		if (Cmd.isArgsLengthGreaterThan(sender, args, 1)) {
-			return true;
+			return false;
 		}
 		if (args.length == 0) {
 			doPlayerWeather(sender);
@@ -72,7 +71,7 @@ public class VitalPlayerWeatherCmd implements TabExecutor {
 		assert weatherType != null;
 
 		senderPlayer.setPlayerWeather(weatherType);
-		Chat.sendMessage(sender, ImmutableMap.of("%weather%", args[0].toLowerCase()), "set-weather");
+		Chat.sendMessage(sender, java.util.Map.of("%weather%", args[0].toLowerCase()), "set-weather");
 
 	}
 
