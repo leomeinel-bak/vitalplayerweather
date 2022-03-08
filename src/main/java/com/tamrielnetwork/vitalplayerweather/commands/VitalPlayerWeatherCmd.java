@@ -30,6 +30,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+import java.util.Map;
 
 public class VitalPlayerWeatherCmd implements TabExecutor {
 
@@ -71,7 +72,7 @@ public class VitalPlayerWeatherCmd implements TabExecutor {
 		assert weatherType != null;
 
 		senderPlayer.setPlayerWeather(weatherType);
-		Chat.sendMessage(sender, java.util.Map.of("%weather%", args[0].toLowerCase()), "set-weather");
+		Chat.sendMessage(sender, Map.of("%weather%", args[0].toLowerCase()), "set-weather");
 
 	}
 
