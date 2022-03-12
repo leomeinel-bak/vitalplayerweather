@@ -30,12 +30,10 @@ import java.util.List;
 public class CmdSpec {
 
 	private CmdSpec() {
-
 		throw new IllegalStateException("Utility class");
 	}
 
 	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-
 		if (Cmd.isInvalidSender(sender)) {
 			return true;
 		}
@@ -43,7 +41,6 @@ public class CmdSpec {
 	}
 
 	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg, @NotNull String perm) {
-
 		if (Cmd.isInvalidSender(sender)) {
 			return true;
 		}
@@ -54,7 +51,6 @@ public class CmdSpec {
 	}
 
 	public static WeatherType getWeatherType(@NotNull String arg) {
-
 		return switch (arg) {
 			case "sun", "clear" -> WeatherType.CLEAR;
 			case "storm", "rain" -> WeatherType.DOWNFALL;
@@ -63,17 +59,14 @@ public class CmdSpec {
 	}
 
 	public static List<String> getNames() {
-
 		return new ArrayList<>(Arrays.asList("sun", "clear", "storm", "rain"));
 	}
 
 	private static boolean isInvalidWeatherType(@NotNull CommandSender sender, @NotNull String arg) {
-
 		if (getWeatherType(arg) == null) {
 			Chat.sendMessage(sender, "invalid-weather");
 			return true;
 		}
 		return false;
 	}
-
 }
