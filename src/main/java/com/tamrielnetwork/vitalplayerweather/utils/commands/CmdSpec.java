@@ -33,21 +33,12 @@ public class CmdSpec {
 		throw new IllegalStateException("Utility class");
 	}
 
-	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-		if (Cmd.isInvalidSender(sender)) {
-			return true;
-		}
-		return Cmd.isNotPermitted(sender, perm);
+	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg, @NotNull String perm) {
+		return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm) || isInvalidWeatherType(sender, arg);
 	}
 
-	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg, @NotNull String perm) {
-		if (Cmd.isInvalidSender(sender)) {
-			return true;
-		}
-		if (Cmd.isNotPermitted(sender, perm)) {
-			return true;
-		}
-		return isInvalidWeatherType(sender, arg);
+	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
+		return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm);
 	}
 
 	public static WeatherType getWeatherType(@NotNull String arg) {
