@@ -2,8 +2,7 @@ name: VitalPlayerWeather
 version: @version@
 main: com.tamrielnetwork.vitalplayerweather.VitalPlayerWeather
 api-version: 1.17
-authors: [ Tamriel Network ]
-website: https://tamriel.site
+authors: [ Leopold Meinel ]
 description: Gives players the ability to open a crafting interface.
 commands:
   pweather:
