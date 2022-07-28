@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalPlayerWeather/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalplayerweather.utils.commands;
+package dev.meinel.leo.vitalplayerweather.utils.commands;
 
-import com.tamrielnetwork.vitalplayerweather.utils.Chat;
+import dev.meinel.leo.vitalplayerweather.utils.Chat;
 import org.bukkit.WeatherType;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;

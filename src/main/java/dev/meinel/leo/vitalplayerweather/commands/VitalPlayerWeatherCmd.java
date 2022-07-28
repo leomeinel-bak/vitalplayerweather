@@ -16,11 +16,11 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalPlayerWeather/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalplayerweather.commands;
+package dev.meinel.leo.vitalplayerweather.commands;
 
-import com.tamrielnetwork.vitalplayerweather.utils.Chat;
-import com.tamrielnetwork.vitalplayerweather.utils.commands.Cmd;
-import com.tamrielnetwork.vitalplayerweather.utils.commands.CmdSpec;
+import dev.meinel.leo.vitalplayerweather.utils.Chat;
+import dev.meinel.leo.vitalplayerweather.utils.commands.Cmd;
+import dev.meinel.leo.vitalplayerweather.utils.commands.CmdSpec;
 import org.bukkit.WeatherType;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

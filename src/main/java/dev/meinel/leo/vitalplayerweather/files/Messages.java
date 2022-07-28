@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalPlayerWeather/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalplayerweather.files;
+package dev.meinel.leo.vitalplayerweather.files;
 
-import com.tamrielnetwork.vitalplayerweather.VitalPlayerWeather;
+import dev.meinel.leo.vitalplayerweather.VitalPlayerWeather;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

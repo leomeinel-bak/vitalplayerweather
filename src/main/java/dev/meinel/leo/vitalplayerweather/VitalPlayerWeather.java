@@ -16,10 +16,10 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalPlayerWeather/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalplayerweather;
+package dev.meinel.leo.vitalplayerweather;
 
-import com.tamrielnetwork.vitalplayerweather.commands.VitalPlayerWeatherCmd;
-import com.tamrielnetwork.vitalplayerweather.files.Messages;
+import dev.meinel.leo.vitalplayerweather.commands.VitalPlayerWeatherCmd;
+import dev.meinel.leo.vitalplayerweather.files.Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
