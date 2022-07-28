@@ -10,7 +10,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/TamrielNetwork/VitalPlayerWeather">
+  <a href="https://github.com/LeoMeinel/VitalPlayerWeather">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     Change playerweather on Spigot and Paper
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalPlayerWeather"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/VitalPlayerWeather"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalPlayerWeather">View Demo</a>
+    <a href="https://github.com/LeoMeinel/VitalPlayerWeather">View Demo</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalPlayerWeather/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/VitalPlayerWeather/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalPlayerWeather/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/VitalPlayerWeather/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -106,7 +106,7 @@ invalid-weather: "&cInvalid weather!"
 
 ## Roadmap
 
-See the [open issues](https://github.com/TamrielNetwork/VitalPlayerWeather/issues) for a list of proposed features (and
+See the [open issues](https://github.com/LeoMeinel/VitalPlayerWeather/issues) for a list of proposed features (and
 known issues).
 
 <!-- CONTRIBUTING -->
@@ -136,7 +136,7 @@ Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - eMail
 
-Project Link - [VitalPlayerWeather](https://github.com/TamrielNetwork/VitalPlayerWeather) - GitHub
+Project Link - [VitalPlayerWeather](https://github.com/LeoMeinel/VitalPlayerWeather) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -146,26 +146,26 @@ Project Link - [VitalPlayerWeather](https://github.com/TamrielNetwork/VitalPlaye
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalPlayerWeather?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalPlayerWeather?style=for-the-badge
 
-[contributors-url]: https://github.com/TamrielNetwork/VitalPlayerWeather/graphs/contributors
+[contributors-url]: https://github.com/LeoMeinel/VitalPlayerWeather/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalPlayerWeather?label=Forks&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalPlayerWeather?label=Forks&style=for-the-badge
 
-[forks-url]: https://github.com/TamrielNetwork/VitalPlayerWeather/network/members
+[forks-url]: https://github.com/LeoMeinel/VitalPlayerWeather/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalPlayerWeather?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalPlayerWeather?style=for-the-badge
 
-[stars-url]: https://github.com/TamrielNetwork/VitalPlayerWeather/stargazers
+[stars-url]: https://github.com/LeoMeinel/VitalPlayerWeather/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalPlayerWeather?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalPlayerWeather?style=for-the-badge
 
-[issues-url]: https://github.com/TamrielNetwork/VitalPlayerWeather/issues
+[issues-url]: https://github.com/LeoMeinel/VitalPlayerWeather/issues
 
-[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalPlayerWeather?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalPlayerWeather?style=for-the-badge
 
-[license-url]: https://github.com/TamrielNetwork/VitalPlayerWeather/blob/main/LICENSE
+[license-url]: https://github.com/LeoMeinel/VitalPlayerWeather/blob/main/LICENSE
 
-[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalPlayerWeather?style=for-the-badge
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalPlayerWeather?style=for-the-badge
 
-[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalPlayerWeather
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalPlayerWeather
