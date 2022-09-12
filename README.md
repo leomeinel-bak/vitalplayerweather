@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -68,13 +69,13 @@ This plugin is perfect for any server wanting their players to see the server wi
 
 ### Features
 
-* Change playerweather
-* Reset playerweather
+- Change playerweather
+- Reset playerweather
 
 ### Built With
 
-* [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
-* [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
+- [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
+- [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
 
 <!-- GETTING STARTED -->
 
@@ -86,10 +87,10 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalplayerweather.set`
 
-* Command: `/pweather`
-* Description: Reset your playerweather
-* Command: `/pweather <weather>`
-* Description: Change your playerweather
+- Command: `/pweather`
+- Description: Reset your playerweather
+- Command: `/pweather <weather>`
+- Description: Change your playerweather
 
 ### Configuration - messages.yml
 
@@ -140,30 +141,19 @@ Project Link - [VitalPlayerWeather](https://github.com/LeoMeinel/VitalPlayerWeat
 
 ### Acknowledgements
 
-* [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-
 [contributors-url]: https://github.com/LeoMeinel/VitalPlayerWeather/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalPlayerWeather?label=Forks&style=for-the-badge
-
 [forks-url]: https://github.com/LeoMeinel/VitalPlayerWeather/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-
 [stars-url]: https://github.com/LeoMeinel/VitalPlayerWeather/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-
 [issues-url]: https://github.com/LeoMeinel/VitalPlayerWeather/issues
-
 [license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-
 [license-url]: https://github.com/LeoMeinel/VitalPlayerWeather/blob/main/LICENSE
-
 [quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-
 [quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalPlayerWeather
