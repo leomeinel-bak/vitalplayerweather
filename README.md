@@ -11,7 +11,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/LeoMeinel/VitalPlayerWeather">
+  <a href="https://github.com/LeoMeinel/vitalplayerweather">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +20,14 @@
   <p align="center">
     Change playerweather on Spigot and Paper
     <br />
-    <a href="https://github.com/LeoMeinel/VitalPlayerWeather"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/vitalplayerweather"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/LeoMeinel/VitalPlayerWeather">View Demo</a>
+    <a href="https://github.com/LeoMeinel/vitalplayerweather">View Demo</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalPlayerWeather/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/vitalplayerweather/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalPlayerWeather/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/vitalplayerweather/issues">Request Feature</a>
   </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -80,7 +80,7 @@ invalid-weather: "&cInvalid weather!"
 
 ## Roadmap
 
-See the [open issues](https://github.com/LeoMeinel/VitalPlayerWeather/issues) for a list of proposed features (and
+See the [open issues](https://github.com/LeoMeinel/vitalplayerweather/issues) for a list of proposed features (and
 known issues).
 
 <!-- CONTRIBUTING -->
@@ -108,7 +108,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 Leopold Meinel - [leo@meinel.dev](mailto:leo@meinel.dev) - eMail
 
-Project Link - [VitalPlayerWeather](https://github.com/LeoMeinel/VitalPlayerWeather) - GitHub
+Project Link - [VitalPlayerWeather](https://github.com/LeoMeinel/vitalplayerweather) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -118,15 +118,15 @@ Project Link - [VitalPlayerWeather](https://github.com/LeoMeinel/VitalPlayerWeat
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-[contributors-url]: https://github.com/LeoMeinel/VitalPlayerWeather/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalPlayerWeather?label=Forks&style=for-the-badge
-[forks-url]: https://github.com/LeoMeinel/VitalPlayerWeather/network/members
-[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-[stars-url]: https://github.com/LeoMeinel/VitalPlayerWeather/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-[issues-url]: https://github.com/LeoMeinel/VitalPlayerWeather/issues
-[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-[license-url]: https://github.com/LeoMeinel/VitalPlayerWeather/blob/main/LICENSE
-[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalPlayerWeather?style=for-the-badge
-[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalPlayerWeather
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/vitalplayerweather?style=for-the-badge
+[contributors-url]: https://github.com/LeoMeinel/vitalplayerweather/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/vitalplayerweather?label=Forks&style=for-the-badge
+[forks-url]: https://github.com/LeoMeinel/vitalplayerweather/network/members
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/vitalplayerweather?style=for-the-badge
+[stars-url]: https://github.com/LeoMeinel/vitalplayerweather/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/vitalplayerweather?style=for-the-badge
+[issues-url]: https://github.com/LeoMeinel/vitalplayerweather/issues
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/vitalplayerweather?style=for-the-badge
+[license-url]: https://github.com/LeoMeinel/vitalplayerweather/blob/main/LICENSE
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/vitalplayerweather?style=for-the-badge
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/vitalplayerweather
