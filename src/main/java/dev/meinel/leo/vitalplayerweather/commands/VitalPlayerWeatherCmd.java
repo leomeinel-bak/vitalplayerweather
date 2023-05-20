@@ -2,7 +2,7 @@
  * File: VitalPlayerWeatherCmd.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -24,12 +24,11 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import java.util.Map;
 
-public class VitalPlayerWeatherCmd
-        implements TabExecutor {
+public class VitalPlayerWeatherCmd implements TabExecutor {
 
     @Override
-    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
-            @NotNull String[] args) {
+    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
+            @NotNull String label, @NotNull String[] args) {
         if (Cmd.isArgsLengthGreaterThan(sender, args, 1)) {
             return false;
         }
@@ -62,8 +61,8 @@ public class VitalPlayerWeatherCmd
     }
 
     @Override
-    public @Nullable List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command,
-            @NotNull String alias, @NotNull String[] args) {
+    public @Nullable List<String> onTabComplete(@NotNull CommandSender sender,
+            @NotNull Command command, @NotNull String alias, @NotNull String[] args) {
         if (args.length == 1) {
             return CmdSpec.getNames();
         }

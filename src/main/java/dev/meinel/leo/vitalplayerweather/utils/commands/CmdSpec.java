@@ -2,7 +2,7 @@
  * File: CmdSpec.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -25,8 +25,10 @@ public class CmdSpec {
         throw new IllegalStateException("Utility class");
     }
 
-    public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg, @NotNull String perm) {
-        return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm) || isInvalidWeatherType(sender, arg);
+    public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg,
+            @NotNull String perm) {
+        return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm)
+                || isInvalidWeatherType(sender, arg);
     }
 
     public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
@@ -45,7 +47,8 @@ public class CmdSpec {
         return new ArrayList<>(Arrays.asList("sun", "clear", "storm", "rain"));
     }
 
-    private static boolean isInvalidWeatherType(@NotNull CommandSender sender, @NotNull String arg) {
+    private static boolean isInvalidWeatherType(@NotNull CommandSender sender,
+            @NotNull String arg) {
         if (getWeatherType(arg) == null) {
             Chat.sendMessage(sender, "invalid-weather");
             return true;
