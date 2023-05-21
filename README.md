@@ -68,7 +68,6 @@ To get the plugin running on your server follow these simple steps.
 ### Configuration - messages.yml
 
 ```yaml
-cmd: "&fUsage: &b/pweather <weather>"
 reset-weather: "Your weather has been reset"
 set-weather: "&fYour weather has been changed to &b%weather%"
 no-perms: "&cYou don't have enough permissions!"
