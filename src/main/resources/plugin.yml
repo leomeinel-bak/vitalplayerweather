@@ -7,7 +7,7 @@ description: Gives players the ability to open a crafting interface.
 commands:
   pweather:
     description: "Main command"
-    usage: "/pweather"
+    usage: "/pweather <weather>"
 permissions:
   vitalplayerweather.set:
     description: "Permission to change playerweather"
